@@ -9,6 +9,7 @@ import TimeSofia from './Componentes/timeSofia';
 import Precos from './Componentes/precos';
 import Contato from './Componentes/contato';
 import Rodape from './Componentes/rodape';
+import Site from './Site';
 
 class App extends Component {
     render() {
@@ -31,3 +32,4 @@ class App extends Component {
 }
 
 export default App;
+

@@ -30,7 +30,7 @@ class Cabecalho extends Component {
                     </div>
                 </nav>
                 <div className='jumbotron text-center'>
-                    <img className='logo' src='./logo_sofia.jpeg' alt='Sofia' width='25%' height='25%' />
+                    <img className='logo' src='./logo_sofia.jpeg' alt='Sofia' width='20%' height='20%' />
                     <p className="titulo">Você não está sozinho</p>
 
                 </div>

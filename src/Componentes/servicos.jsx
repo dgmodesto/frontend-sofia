@@ -9,40 +9,54 @@ class Servicos extends Component {
                     <h2>SERVIÇOS</h2>
                     <h4>O que oferecemos</h4>
                     <br />
-                    <div className='row '>
-                        <div className='col-sm-4'>
-                            <span className='glyphicon glyphicon-off logo-small'></span>
-                            <h4>Parcerias</h4>
-                            <p>Por meio de indicações em nossas abordagens podemos aumentar o fluxo de paciente nos consultórios e clínicas</p>
+                    <div className='row'>
+                        <div className='col-sm-6'>
+                            <span className='glyphicon glyphicon-user logo-small'></span>
+                            <h4>PARCERIA SIMPLES</h4>
+                            <div className="col-sm-12">
+                                <div className="color-palette-set">
+                                    <div className="bg-purple disabled color-palette"><span>Indicação</span></div>
+                                    <div className="bg-purple color-palette"><span>Considera Região</span></div>
+                                </div>
+                            </div>
                         </div>
-                        <div className='col-sm-4'>
+                        <div className='col-sm-6'>
                             <span className='glyphicon glyphicon-heart logo-small'></span>
-                            <h4>LOVE</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div className='col-sm-4'>
-                            <span className='glyphicon glyphicon-lock logo-small'></span>
-                            <h4>JOB DONE</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                            <h4>PARCERIA ESPECIAL</h4>
+                            <div className="col-sm-12">
+                                <div className="color-palette-set">
+                                    <div className="bg-purple disabled color-palette"><span>Indicação</span></div>
+                                    <div className="bg-purple color-palette"><span>Considera Região</span></div>
+                                    <div className="bg-purple-active color-palette"><span>Sobe no Ranking de Recomendação</span></div>
+                                </div>
+                            </div>
+                           
                         </div>
                     </div>
                     <br /><br />
                     <div className='row '>
-                        <div className='col-sm-4'>
-                            <span className='glyphicon glyphicon-leaf logo-small'></span>
-                            <h4>GREEN</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                        <div className='col-sm-6'>
+                            <span className='glyphicon glyphicon-star-empty logo-small'></span>
+                            <h4>PUBLICIDADE NORMAL</h4>
+                            <div className="col-sm-12">
+                                <div className="color-palette-set">
+                                    <div className="bg-purple disabled color-palette"><span>Divulgação em Rede Sociais</span></div>
+                                    <div className="bg-purple color-palette"><span>Divulgação no nosso Site</span></div>
+                                </div>
+                            </div>
                         </div>
-                        <div className='col-sm-4'>
+                        <div className='col-sm-6'>
                             <span className='glyphicon glyphicon-certificate logo-small'></span>
-                            <h4>CERTIFIED</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                            <h4>PUBLICIDADE EXTRA</h4>
+                            <div className="col-sm-12">
+                                <div className="color-palette-set">
+                                    <div className="bg-purple disabled color-palette"><span>Divulgação em Rede Sociais</span></div>
+                                    <div className="bg-purple color-palette"><span>Sobe no Ranking para destaques</span></div>
+                                    <div className="bg-purple-active color-palette"><span>Mais vezes divulgado</span></div>
+                                </div>
+                            </div>
                         </div>
-                        <div className='col-sm-4'>
-                            <span className='glyphicon glyphicon-wrench logo-small'></span>
-                            <h4>HARD WORK</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
-                        </div>
+
                     </div>
                 </div>
             </div>

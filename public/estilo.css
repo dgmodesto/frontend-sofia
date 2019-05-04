@@ -146,8 +146,25 @@ body {
     visibility: visible;
   }
 
+  .inputRosca  {
+    width: 34px;
+    height: 20px;
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: -47px;
+    border: 0px;
+    background: none;
+    font: bold 12px Arial;
+    text-align: center;
+    color: rgb(57, 204, 204);
+    padding: 0px;
+
+}
+
+
   .titulo {
-    font-size:5vw !important
+    font-size:3vw !important
   }
   .conteudo {
     font-size:1vw !important
