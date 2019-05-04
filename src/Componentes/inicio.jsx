@@ -36,8 +36,8 @@ class Inicio extends Component {
                         </div>
                         <div className='col-sm-8'>
                             <h2>Nossos Valores</h2><br />
-                            <h4><strong>MISSIÃO:</strong> Prevenir o suicídio. Criando meios de ajuda às pessoas, conectando-as a profissionais especializados.<br /><br />
-                                <strong>VISIÃO:</strong> Não deixar o suicídio ser uma opção. Sermos lembrados por incentivar as pessoas a procurar ajuda de um profissional ou serviço de saúde.</h4>
+                            <h4><strong>MISSÃO:</strong> Prevenir o suicídio. Criando meios de ajuda às pessoas, conectando-as a profissionais especializados.<br /><br />
+                                <strong>VISÃO:</strong> Não deixar o suicídio ser uma opção. Sermos lembrados por incentivar as pessoas a procurar ajuda de um profissional ou serviço de saúde.</h4>
                         </div>
                     </div>
                 </div>
