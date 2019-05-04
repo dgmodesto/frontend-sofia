@@ -1,0 +1,38 @@
+alt + shift + f - ordena o html dentro do arquivo js
+
+PASTAS
+
+1 - node_modules:   que contém todos os pacotes e dependências da aplicação
+
+2 - public:         que contém os recursos publicos da aplicação
+        - favicon.ico   - o ícone da aplicaçao
+        - index.html    - o arquivo contém na section body a tag <div id="root"></div>. É nessa tag que nossa aplicação React 
+                            será renderizada e vai ser exibida. Esta div é o container para a nossa aplicação React. É o nosso
+                            template da página da aplicação. Somente arquivos definidos neste pasta podem ser usados na página index.html.
+
+3 - src:            contém os arquivos do componente React que é o componente App.component que é responsável por renderizar o banner negro
+                    com o logo do react na aplicação:
+                        - Somente arquivos dentro da pasta src são processads pelo Webpack. 
+                        - Assim você precisa colocar quaisquer arquios JS e CSS dentro desta pasta, caso contrário o Webpack não vai reconhecer.
+
+                - App.cs:                       é um arquivo de estilo
+                - App.test.js:                  é um arquivo de teste unitário
+                - logo.svg:                     é o arquivo de logo exibido na página
+                - registerServiceWorker.js:     contém código gerado pelo React
+                - App.js:                       é o arquivo principal do componente
+
+
+Os componentes React são funções ou classes JavaScript que aceitam parâmetros, chamados props e retonar uma descrição da interface 
+com base nesses parãmetros.
+
+O Conceito de setState do React
+    - O método setState({objeto}) do React é usado para atualizar o estado do componentnte após sua condiguração inicial.
+    - Você passa um objeto cotendo as partes do estadoue você quer atualiar, ouseja, o objeto que você passa terá chaves {} que correspondem aschavs do estadodo seu componente;
+        entao setState() irá atualizar (ou setar) o estado, mesclando o objetopasado com o estado.
+
+Destrucuturing é um recurso que facilita o acesso a dados dentro de uma array ou objeto e a criação de variáveis qu contenham esses dados.
+
+=== - este operador compara o valor e o tipo. Assim será true se for exatamente igual, incluindo valor e tipo.
+
+map - o métoo map() é um recurso do ECMAScript5. Para iterar sobre uma lista de elementos temos que usar o  método map() os arrays
+        que cria um novo array com os resultados da chamada de uma função para elemento existente. (map() não altera o valor original do array)
