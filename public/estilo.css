@@ -145,6 +145,14 @@ body {
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+
+  .titulo {
+    font-size:10vw !important
+  }
+  .conteudo {
+    font-size:1vw !important
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;

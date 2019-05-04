@@ -16,7 +16,7 @@ class Inicio extends Component {
                             <br />
                             <button className='btn btn-default btn-lg'>Saiba mais</button>
                         </div>
-                        <div className='col-sm-4'>
+                        <div className='col-sm-3'>
                             <span className='glyphicon glyphicon-signal logo'></span>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ class Inicio extends Component {
 
                 <div className='container-fluid bg-grey'>
                     <div className='row'>
-                        <div className='col-sm-4'>
+                        <div className='col-sm-3'>
                             <span className='glyphicon glyphicon-globe logo '></span>
                         </div>
                         <div className='col-sm-8'>
