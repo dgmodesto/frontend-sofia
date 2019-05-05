@@ -35,12 +35,10 @@ class TimeSofia extends Component {
                                     </div>
                                     {/* <!-- /.user-block --> */}
                                     <p>
-                                        Atualmente atuando como Analista e Desenvolvedor .Net Sênior, Tech Lead de Desenvolvimento,  pós-graduado em <strong>Inteligência Artificial e Machine Learning</strong>.
+                                        Analista e Desenvolvedor .Net Sênior, Tech Lead de Desenvolvimento e pós-graduado em <strong>Inteligência Artificial e Machine Learning</strong>.
                                         <br />
                                         Uma sede de conhecimento ímpar, sempre buscando novas tecnologias que possam proporcionar maior escalabilidade e processamento trazendo valor para o négocio.
-                                        <br />
-                                        Envolvido em projetos com desenvolvimento com Python, onde aplica a utilização de bibliotecas de análise de dados como pandas, scikit learning entre outros.
-                      </p>
+                                  </p>
                                 </div>
                                 {/* <!-- /.post --> */}
 
@@ -61,10 +59,6 @@ class TimeSofia extends Component {
                                     Gosto de estudar o tempo todo e aprendo todo dia algo novo. Gosto de ajudar as pessoas e compartilhar o conhecimento.
                                     <br />
                                     Sempre dou o melhor de mim em tudo que faço e não tenho medo em arriscar. Sempre vejo o lado positivo para tudo e sou apaixonado em aproveitar todos os momentos da vida como se fossem únicos.
-                                    <br />
-                                    Sou cidadão do mundo e já dei início ao meu sonho de conhecer outros países e culturas. Mente aberta para novas ideias sempre buscando o crescimento. Sou formado em Análise e Desenvolvimento de Sistemas e ainda tenho interesse em me graduar também em matemática, jogos digitais, filosofia e história, além de ser fascinado por exatas e informática, ter prazer em aprender e ensinar, sou também afeiçoado e entusiasta de temas como física quântica, empreendedorismo e estudos musicais.
-                                    <br />
-                                    Pretendo me especializar nas áreas de inteligência artificial e aprendizagem de máquina.
                                      </p>
 
 
@@ -85,11 +79,9 @@ class TimeSofia extends Component {
                                     </div>
                                     {/* <!-- /.user-block --> */}
                                     <p>
-                                        Entusiasta em <strong>machine learning e inteligência artificial</strong> que atua como consultora de advanced analytics em projetos focados em machine learning e estatística, tal como, modelos de séries temporais, regressões e classNameificações. <br />
-                                        Desenvolvimento de projetos em Python aplicando bibliotecas de análise de dados e aprendizado de máquinas como Pandas, Numpy, Tensorflow e Scikit-Learn.<br />
-                                        Experiência em construção de dashboard utilizando Tableau ou Power BI, demonstrando resultados e análises. Conhecimentos em R e SQL.<br />
-                                        Caracterizo por buscar sempre novos desafios e estar em aprendizado constante na área de aprendizado de máquinas e programação.
-                      </p>
+                                        Entusiasta em <strong>machine learning e inteligência artificial</strong> que atua como consultora de advanced analytics.<br />
+                                        Sempre em busca por novos desafios e aprendizado constante.
+                                  </p>
 
 
                                 </div>
@@ -111,7 +103,7 @@ class TimeSofia extends Component {
                                     {/* <!-- /.user-block --> */}
                                     <p>
                                     Atualmente analista na área de Inteligência Comerical do Santander Brasil.<br />
-                                    Graduado em Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul, pós-graduado em Inteligência Artificial e Machine Learning na FIAP. <br />
+                                    Pós-graduado em Inteligência Artificial e Machine Learning na FIAP. 
                                     Foi voluntário durante um ano na ONG Amigos do Bem.
                                      </p>
 

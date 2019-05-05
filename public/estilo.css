@@ -164,10 +164,145 @@ body {
 
 
   .titulo {
-    font-size:3vw !important
+    font-size:3vw !important;
+    text-align: center;
+    margin-top: 3%;
   }
   .conteudo {
     font-size:1vw !important
+  }
+
+
+
+.liPlanosBranco {
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .11);
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .11);
+    color: #32323d;
+    display: inline-block;
+    min-width: 260px;
+    padding: 40px 25px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    margin-top: 13%;
+    height: 40%;
+    margin-right: 1%;
+
+}
+
+
+.liPlanosRoxo {
+    background-color: #8c52ff;
+    -webkit-box-shadow: 0 5px 10px 5px rgba(12, 12, 12, 0.11);
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .11);
+    color: #fff;
+    display: inline-block;
+    min-width: 260px;
+    padding: 40px 25px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    height: 60%;
+    margin-top: 10%;
+    margin-right: 1%;
+
+}
+
+.liPlanosTeal {
+    background-color: teal;
+    -webkit-box-shadow: 0 5px 10px 5px rgba(12, 12, 12, 0.11);
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .11);
+    color: #fff;
+    display: inline-block;
+    min-width: 260px;
+    padding: 40px 25px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    height: 70%;
+    margin-top: 8%;
+
+}
+
+.liPlanosContainer {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
+
+.liPlanosDesc {
+    height: auto;
+}
+
+.liPlanosItem {
+    color: #8e8e94;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.liPlanosItemBranco {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.liPlanosHeading1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.liPlanosHeading2 {
+    color: #32323d;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.liPlanosDesc .liPlanosPreco {
+    margin-bottom: 0;
+}
+
+.liPlanosDesc .liPlanosUnit {
+    font-size: 1.3em;
+}
+
+
+
+.liPlanosBtnHover:before {
+    background-color: currentColor;
+    border-radius: 35px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.liPlanosTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
   }
 
   @keyframes slide {

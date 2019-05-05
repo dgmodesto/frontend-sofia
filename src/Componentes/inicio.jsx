@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Inicio extends Component {
     render() {
         const embededPersonalizado= {
-            paddingBottom: '35%'
+            paddingBottom: '40%'
         };
         const tamanhoImg = {
             width: '10%',
@@ -11,6 +11,16 @@ class Inicio extends Component {
         }
         return (
             <div>
+                {/*<!-- 21:9 aspect ratio -->*/}
+                <br/>
+
+                <p className="titulo">SOBRE A SOFIA</p><br />
+                <p> Veja o Vídeo para entender o que a <strong>SOFIA </strong>irá fazer.</p>
+                <br/>
+
+                <div className="embed-responsive embed-responsive-16by9" style={embededPersonalizado}>
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/2o2Mddlzppk" ></iframe>
+                </div>
 
                 {/* Container (About Section) {*/}
                 <div id='about' className='container-fluid'>
@@ -19,7 +29,7 @@ class Inicio extends Component {
 
                             <h2>Sobre o Projeto</h2><br />
                             <h4>A <strong>SOFIA</strong> foi criada em uma era em que um dos maiores problemas de saúde pública é o suicídio. </h4><br />
-                            <p>Acreditamos que podemos salvar vidas e que nosso sistema SOFIA possa ser o elo entre usuários de redes sociais que enfrentam a depressão e tendem ao suicídio, com profissionais, clínicas e centros especializados no tema.</p>
+                            <p>Acreditamos que o suicídio possa ser evitado com a nova tecnologia SOFIA, o elo entre usuários de redes sociais com profissionais da saúde, clínicas e centros especializados, incentivando internautas com tendências suicidas a buscar ajuda e a superar os obstáculos e tabus, esses tão comumente reprimidos em uma sociedade cada vez menos autruísta.</p>
                             <br />
                             <button className='btn btn-default btn-lg'>Saiba mais</button>
                         </div>
@@ -36,16 +46,12 @@ class Inicio extends Component {
                         </div>
                         <div className='col-sm-8'>
                             <h2>Nossos Valores</h2><br />
-                            <h4><strong>MISSÃO:</strong> Prevenir o suicídio. Criando meios de ajuda às pessoas, conectando-as a profissionais especializados.<br /><br />
+                            <h4><strong>MISSÃO:</strong> Prevenir o suicidio identificando padrões e criando vínculos de comunicação entre usuários de mídias sociais com profissionais especializados, que ofereçam estímulos a sua melhora, apoio ao momento e tratamento em potencial.<br /><br />
                                 <strong>VISÃO:</strong> Não deixar o suicídio ser uma opção. Sermos lembrados por incentivar as pessoas a procurar ajuda de um profissional ou serviço de saúde.</h4>
                         </div>
                     </div>
                 </div>
-                {/*<!-- 21:9 aspect ratio -->*/}
 
-                <div className="embed-responsive embed-responsive-16by9" style={embededPersonalizado}>
-                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/2o2Mddlzppk" ></iframe>
-                </div>
             </div>
         );
     }

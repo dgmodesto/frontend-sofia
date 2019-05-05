@@ -21,8 +21,8 @@ class Cabecalho extends Component {
                             <ul className="nav navbar-nav navbar-right">
                                 <li><Link to='/' >INICIO </Link></li>
                                 <li><Link to='/servicos' >SERVIÇOS</Link></li>
-                                <li><Link to='/precos' >PREÇOS</Link></li>
-                                <li><Link to='/timeSofia' >TIME</Link></li>
+                                <li><Link to='/planos' >PLANOS</Link></li>
+                                <li><Link to='/quemSomos' >QUEM SOMOS</Link></li>
                                 <li><Link to='/contato' >CONTATO</Link></li>
 
                             </ul>
