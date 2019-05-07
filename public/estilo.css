@@ -233,7 +233,7 @@ body {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10%;
+    padding-left: 13%;
     padding-right: 5%;
     margin-top: 2%;
 }
@@ -246,12 +246,16 @@ body {
     color: #8e8e94;
     font-size: 14px;
     line-height: 1.8;
+    text-align: center;
+    padding-left: 0;
 }
 
 .liPlanosItemBranco {
     color: #fff;
     font-size: 14px;
     line-height: 1.8;
+    text-align: center;
+    padding-left: 0;
 }
 .liPlanosHeading1 {
   color: #fff;

@@ -36,3 +36,34 @@ Destrucuturing é um recurso que facilita o acesso a dados dentro de uma array o
 
 map - o métoo map() é um recurso do ECMAScript5. Para iterar sobre uma lista de elementos temos que usar o  método map() os arrays
         que cria um novo array com os resultados da chamada de uma função para elemento existente. (map() não altera o valor original do array)
+
+
+Comandos Git
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dgmodesto/frontend-sofia
+git fetch origem master
+git push--force-with-lease origem
+
+mars/create-react-app - serve para configurar todo app feito em react no HEROKU
+
+Express só lida com as questões de Rotas e Midlewares
+
+Toda função que vier com os parametros (req, res) podemos considerá-la como Middleware
+req é onde estão as informações que o usuários envia para o servidor
+res é a resposta que o servidor enviará para o usuário.
+
+urlenconded permite que enviemos arquivos para as nossas requisições
+
+yarn add nodemom -D : esse pacote faz com que não precisemos reestartar o servidor sempre que houver uma alteração no código. O -D representa que isso será utilizado somente em ambiente de Desenvolvimento.	
+
+axios - server para realizar as chamadas para a api
+
+yarn add react-dropzone - esse lib oferece a funcinalidade do usuário arrastar um arquivo para um campo e o mesmo realizar o upload do arquivo
+
+yarn add socket.io-client - essa lib oferece a opção de consumir os socket utilizados no backend
+
+
+REACT NATIVE
+react-native init [nome do projeto] - cria um projeto mobile
